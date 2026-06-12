@@ -1,0 +1,67 @@
+TASK 03 - AUTOMATED LOGIN TEST FOR A WEB APPLICATION
+
+Website: https://www.saucedemo.com/
+
+TC_001 - Valid Login
+Steps:
+
+1. Open website
+2. Enter valid username (standard_user)
+3. Enter valid password (secret_sauce)
+4. Click Login
+
+Expected Result:
+User should be redirected to inventory page.
+
+Actual Result:
+User successfully redirected to inventory page.
+
+Status: PASS
+
+TC_002 - Invalid Login
+Steps:
+
+1. Open website
+2. Enter invalid username
+3. Enter invalid password
+4. Click Login
+
+Expected Result:
+Error message should be displayed.
+
+Actual Result:
+Error message displayed.
+
+Status: PASS
+
+TC_003 - Empty Username
+Steps:
+
+1. Open website
+2. Leave username field empty
+3. Enter password
+4. Click Login
+
+Expected Result:
+Username required error message should be displayed.
+
+Actual Result:
+Error message displayed.
+
+Status: PASS
+
+TC_004 - Empty Password
+Steps:
+
+1. Open website
+2. Enter username
+3. Leave password field empty
+4. Click Login
+
+Expected Result:
+Password required error message should be displayed.
+
+Actual Result:
+Error message displayed.
+
+Status: PASS
